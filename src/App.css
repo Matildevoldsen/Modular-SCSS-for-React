@@ -1,0 +1,43 @@
+* {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 1.65rem; }
+
+.btn {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  background: #fff;
+  color: #010;
+  border: 1px solid #e3e2e7;
+  vertical-align: top;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  font-size: 1.65rem;
+  min-height: 4.4rem;
+  -webkit-border-radius: 0.35rem;
+  -moz-border-radius: 0.35rem;
+  border-radius: 0.35rem; }
+
+/*# sourceMappingURL=app.css.map */

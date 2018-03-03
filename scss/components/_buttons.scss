@@ -1,0 +1,29 @@
+.btn {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+
+  background: $white;
+  color: $black;
+  border: 1px solid $grey;
+
+  vertical-align: top;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  outline: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  line-height: 1.5;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  font-size: $font--size;
+  min-height: 4.4rem;
+  -webkit-border-radius: 0.35rem;
+  -moz-border-radius: 0.35rem;
+  border-radius: 0.35rem;
+}
