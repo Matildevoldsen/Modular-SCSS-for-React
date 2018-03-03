@@ -20,10 +20,30 @@
 
   line-height: 1.5;
   cursor: pointer;
-  padding: 0.5rem 2rem;
+  padding: 1.5rem 3.2rem;
   font-size: $font--size;
   min-height: 4.4rem;
   -webkit-border-radius: 0.35rem;
   -moz-border-radius: 0.35rem;
   border-radius: 0.35rem;
+}
+
+.btn--success {
+  background: #2e86de;
+  color: #fff;
+  border: none;
+}
+
+.btn--primary {
+  background: #1dd1a1;
+  color: #fff;
+  border: none;
+}
+
+.btn--danger {
+
+}
+
+.btn--warning {
+
 }
