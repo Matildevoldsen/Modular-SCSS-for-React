@@ -7,10 +7,10 @@ class App extends Component {
         return (
             <div className="App">
                 <p>Hi How's u?</p>
-                <Button bsClass="btn">Button</Button>
-                <Button bsClass="btn btn--success">Button</Button>
-                <Button bsClass="btn btn--primary">Button</Button>
-                <Button bsClass="btn">Button</Button>
+                <Button bsClass="btn">Button</Button><br/>
+                <Button bsClass="btn btn--success">Button</Button><br/>
+                <Button bsClass="btn btn--primary">Button</Button><br/>
+                <Button bsClass="btn btn--warning">Button</Button><br/>
             </div>
         );
     }

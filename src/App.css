@@ -5,6 +5,55 @@
   margin: 0;
   padding: 0; }
 
+/* Thanks to:
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   Reset CSS
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 html {
   font-size: 10px; }
 
@@ -21,6 +70,7 @@ body {
   background: #fff;
   color: #010;
   border: 1px solid #e3e2e7;
+  font-weight: 400;
   vertical-align: top;
   position: relative;
   align-items: center;
@@ -33,12 +83,12 @@ body {
   user-select: none;
   line-height: 1.5;
   cursor: pointer;
-  padding: 1.5rem 3.2rem;
+  padding: 1.3rem 3rem;
   font-size: 1.65rem;
   min-height: 4.4rem;
-  -webkit-border-radius: 0.35rem;
-  -moz-border-radius: 0.35rem;
-  border-radius: 0.35rem; }
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem; }
 
 .btn--success {
   background: #2e86de;
@@ -49,5 +99,9 @@ body {
   background: #1dd1a1;
   color: #fff;
   border: none; }
+
+.btn--warning {
+  background: #ff9f43;
+  color: #fff; }
 
 /*# sourceMappingURL=app.css.map */
