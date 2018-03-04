@@ -137,7 +137,7 @@ body {
 .info {
   display: inline-flex;
   padding: 1.5rem;
-  background: #fff;
+  background-color: #fff;
   border: 1px solid #e2e1e6;
   color: #010;
   font-size: 1.65rem;

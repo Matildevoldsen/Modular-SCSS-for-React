@@ -7,7 +7,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <p>Hi How's u?</p>
+                <p>Hello, from <b>Modular SCSS for ReactJS</b></p>
                 <Info>
                     Whoops, there seems to be something wrong.
                 </Info>

@@ -17,9 +17,51 @@ $white: #fff;
 $black: #010;
 $grey: #e3e2e7;
 
+//Base Color Mapping
+$white-colors: (
+        'base': $white,
+        'darkGreen': darken($white, 10%)
+);
+
+$grey-colors: (
+        'lightGrey': lighten($grey, 10%),
+        'base': $grey,
+        'darkGrey': darken($grey, 10%)
+);
+
+$black-colors: (
+        'lightGreen': lighten($black, 10%),
+        'base': $black,
+);
+
 //UI Colors
 
 $orange: #ff9f43; //Warning
 $red: #ee5253; //Danger
-$green: #1dd1a1;//Success
-$blue: #2e86de;//Primary
+$green: #1dd1a1; //Success
+$blue: #2e86de; //Primary
+
+//UI Color Mapping
+$green-colors: (
+        'lightGreen': lighten($green, 10%),
+        'base': $green,
+        'darkGreen': darken($green, 10%)
+);
+
+$blue-colors: (
+        'lightBlue': lighten($blue, 10%),
+        'base': $blue,
+        'darkBlue': darken($blue, 10%)
+);
+
+$red-colors: (
+        'lightRed': lighten($red, 10%),
+        'base': $red,
+        'darkRed': darken($red, 10%)
+);
+
+$orange-colors: (
+        'lightOrange': lighten($blue, 10%),
+        'base': $orange,
+        'darkOrange': darken($blue, 10%)
+);
