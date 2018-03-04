@@ -11,6 +11,7 @@ class App extends Component {
                 <Button bsClass="btn btn--success">Button</Button><br/>
                 <Button bsClass="btn btn--primary">Button</Button><br/>
                 <Button bsClass="btn btn--warning">Button</Button><br/>
+                <Button bsClass="btn btn--danger btn--outlined btn--rounded">Button</Button><br/>
             </div>
         );
     }
