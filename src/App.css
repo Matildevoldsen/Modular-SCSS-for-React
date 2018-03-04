@@ -134,4 +134,42 @@ body {
   -moz-border-radius: 2rem;
   border-radius: 2rem; }
 
+.info {
+  display: inline-flex;
+  padding: 1.5rem;
+  background: #fff;
+  border: 1px solid #e2e1e6;
+  color: #010;
+  font-size: 1.65rem;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  border-radius: 0.7rem;
+  max-width: 98%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  height: auto;
+  flex-wrap: wrap; }
+
+.info-primary {
+  background: #2e86de;
+  border: none;
+  color: #fff; }
+
+.info-success {
+  background: #1dd1a1;
+  border: none;
+  color: #fff; }
+
+.info-warning {
+  background: #ff9f43;
+  border: none;
+  color: #fff; }
+
+.info-danger {
+  background: #ee5253;
+  border: none;
+  color: #fff; }
+
 /*# sourceMappingURL=app.css.map */

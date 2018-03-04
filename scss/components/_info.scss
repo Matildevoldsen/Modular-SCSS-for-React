@@ -1,0 +1,42 @@
+.info {
+  display: inline-flex;
+  padding: 1.5rem;
+  background: $white;
+  border: 1px solid darken($grey, 0.4%);
+  color: $black;
+  font-size: $font--size;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  border-radius: 0.7rem;
+  max-width: 98%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: $font--weight-default;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.info-primary {
+  background: $blue;
+  border: none;
+  color: $white;
+}
+
+.info-success {
+  background: $green;
+  border: none;
+  color: $white;
+}
+
+.info-warning {
+  background: $orange;
+  border: none;
+  color: $white;
+}
+
+.info-danger {
+  background: $red;
+  border: none;
+  color: $white;
+}
