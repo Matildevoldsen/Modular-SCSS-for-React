@@ -20,14 +20,10 @@ class Info extends Component {
 
     render() {
         return (
-            <div>
-
-                <div
-                    onClick={this.clicked}
-                    className={this.props.infoClassName ? this.props.infoClassName : 'info'}>
-                    <p>{this.props.children}</p>
-                </div>
-
+            <div
+                onClick={this.clicked}
+                className={this.props.infoClassName ? this.props.infoClassName : 'info'}>
+                <p>{this.props.children}</p>
             </div>
         );
     }
