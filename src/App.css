@@ -152,24 +152,27 @@ body {
   height: auto;
   flex-wrap: wrap; }
 
-.info-primary {
+.info--primary {
   background: #2e86de;
   border: none;
   color: #fff; }
 
-.info-success {
+.info--success {
   background: #1dd1a1;
   border: none;
   color: #fff; }
 
-.info-warning {
+.info--warning {
   background: #ff9f43;
   border: none;
   color: #fff; }
 
-.info-danger {
+.info--danger {
   background: #ee5253;
   border: none;
   color: #fff; }
+
+.info--bordered {
+  border: 1px solid #e3e2e7; }
 
 /*# sourceMappingURL=app.css.map */

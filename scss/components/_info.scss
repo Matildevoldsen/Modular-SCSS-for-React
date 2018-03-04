@@ -17,26 +17,30 @@
   flex-wrap: wrap;
 }
 
-.info-primary {
+.info--primary {
   background: $blue;
   border: none;
   color: $white;
 }
 
-.info-success {
+.info--success {
   background: $green;
   border: none;
   color: $white;
 }
 
-.info-warning {
+.info--warning {
   background: $orange;
   border: none;
   color: $white;
 }
 
-.info-danger {
+.info--danger {
   background: $red;
   border: none;
   color: $white;
+}
+
+.info--bordered {
+  border: 1px solid $grey;
 }

@@ -12,8 +12,7 @@ class App extends Component {
                     Whoops, there seems to be something wrong.
                 </Info>
 
-                <Info infoClassName="info info-danger"
-                    isCloseAble="false">
+                <Info infoClassName="info info-danger">
                     Whoops, there seems to be something wrong.
                 </Info>
 
