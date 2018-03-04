@@ -5,7 +5,7 @@
   background: $white;
   color: $black;
   border: 1px solid $grey;
-  font-weight: 400;
+  font-weight: $font--weight-default;
 
   vertical-align: top;
   position: relative;
@@ -53,11 +53,17 @@
   border: none;
 }
 
-.btn--outlined { border: 1px solid $grey; }
+.btn--outlined {
+  border: 1px solid $grey;
+}
 
-.btn--xl { padding: 1.3rem 3rem; }
+.btn--xl {
+  padding: 1.3rem 3rem;
+}
 
-.btn--sm { padding: 1rem 1.6rem; }
+.btn--sm {
+  padding: 1rem 1.6rem;
+}
 
 .btn--rounded {
   -webkit-border-radius: 1rem;

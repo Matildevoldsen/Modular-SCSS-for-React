@@ -1,3 +1,5 @@
+//Checking if the URL variable is empty.
+//If it's not empty it'll import the font-url.
 @if variable_exists($font--url) {
   @import url($font--url);
 }
