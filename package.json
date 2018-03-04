@@ -1,7 +1,10 @@
 {
-  "name": "modular-react-css",
+  "name": "modular-scss-for-react",
   "version": "0.1.0",
   "private": true,
+  "author": "Matilde W. Enevoldsen",
+  "email": "matilde.enevoldsen19@gmail.com",
+  "homepage": "https://github.com/Matildevoldsen/Modular-SCSS-for-React",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
