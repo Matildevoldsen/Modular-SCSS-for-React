@@ -12,19 +12,19 @@ class App extends Component {
                     Whoops, there seems to be something wrong.
                 </Info>
 
-                <Info infoClassName="info info-danger">
+                <Info infoClassName="info info--danger">
                     Whoops, there seems to be something wrong.
                 </Info>
 
-                <Info infoClassName="info info-warning">
+                <Info infoClassName="info info--warning">
                     Whoops, there seems to be something wrong.
                 </Info>
 
-                <Info infoClassName="info info-success">
+                <Info infoClassName="info info--success">
                     Whoops, there seems to be something wrong.
                 </Info>
 
-                <Info infoClassName="info info-primary">
+                <Info infoClassName="info info--primary">
                     Whoops, there seems to be something wrong.
                 </Info>
 
