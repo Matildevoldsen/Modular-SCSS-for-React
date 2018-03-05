@@ -8,7 +8,7 @@ We use a 12-grid system.
 
 Here's an example of how to use the grid system.
 
-```react
+```javascript
 import React, {Component} from 'react';
 import './App.css';
 import Button from './Components/Button';
