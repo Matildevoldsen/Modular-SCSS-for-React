@@ -65,6 +65,7 @@ table {
   margin-bottom: 1rem; }
 
 .column {
+  display: flex;
   flex-basis: 100%; }
 
 @media screen and (min-width: 760px) {

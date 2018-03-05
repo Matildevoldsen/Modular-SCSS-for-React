@@ -54,16 +54,70 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-html {
-  font-size: 10px; }
+.columns {
+  /* Row */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 1rem; }
 
-body {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-  font-size: 1.65rem; }
+.column {
+  flex-basis: 100%; }
 
+@media screen and (min-width: 760px) {
+  .column {
+    flex: 1; }
+
+  .is-1 {
+    flex-basis: 8.33333%;
+    max-width: 8.33333%; }
+
+  .is-2 {
+    flex-basis: 16.66667%;
+    max-width: 16.66667%; }
+
+  .is-3 {
+    flex-basis: 25%;
+    max-width: 25%; }
+
+  .is-4 {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%; }
+
+  .is-5 {
+    flex-basis: 41.66667%;
+    max-width: 41.66667%; }
+
+  .is-6 {
+    flex-basis: 50%;
+    max-width: 50%; }
+
+  .is-7 {
+    flex-basis: 58.33333%;
+    max-width: 58.33333%; }
+
+  .is-8 {
+    flex-basis: 66.66667%;
+    max-width: 66.66667%; }
+
+  .is-9 {
+    flex-basis: 75%;
+    max-width: 75%; }
+
+  .is-10 {
+    flex-basis: 83.33333%;
+    max-width: 83.33333%; }
+
+  .is-11 {
+    flex-basis: 91.66667%;
+    max-width: 91.66667%; }
+
+  .is-12 {
+    flex-basis: 100%;
+    max-width: 100%; } }
 .btn {
   display: inline-flex;
   display: -webkit-inline-flex;
@@ -85,7 +139,6 @@ body {
   cursor: pointer;
   padding: 1.2rem 2rem;
   font-size: 1.65rem;
-  min-height: 4.4rem;
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
   border-radius: 0.5rem; }

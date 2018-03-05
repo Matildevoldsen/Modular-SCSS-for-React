@@ -43,12 +43,26 @@ export default App;
 
 ## Components
 
-All components listed, including modifier classes.
+All components listed below.
 
 To apply a class to a component use: `componentClassName`.
 
-* Info: `info`
-* Button: `btn`
+Info: Contains a message. To access the component:
+```javascript
+<Info infoClassName="info info--primary">
+ Warning
+</Info>
+```
+
+This element closes on click.
+
+Button:
+
+```javascript
+<Button buttonClassName="btn btn--primary">
+ Button
+</Button>
+```
 
 ## Quick Installation
 
