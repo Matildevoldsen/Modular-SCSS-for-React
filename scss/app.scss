@@ -3,6 +3,9 @@
 
 @import "base/typography";
 @import "base/reset";
-@import "base/base";
+
+@import "layout/grid";
+
+@import "components/navbar";
 @import "components/button";
 @import "components/info";

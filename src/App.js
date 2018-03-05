@@ -2,12 +2,28 @@ import React, {Component} from 'react';
 import './App.css';
 import Button from './Components/Button';
 import Info from './Components/Info';
+import Column from './Components/Column';
+import Row from './Components/Row';
 
 class App extends Component {
     render() {
         return (
             <div className="App">
+                <Row>
+                    <Column is="is-4">
+                        <Button buttonClassName="btn">Button</Button>
+                    </Column>
+
+                    <Column is="is-4">
+                        <Button buttonClassName="btn">Button</Button>
+                    </Column>
+
+                    <Column is="is-4">
+                        <Button buttonClassName="btn">Button</Button>
+                    </Column>
+                </Row>
                 <p>Hello, from <b>Modular SCSS for ReactJS</b></p>
+
                 <Info>
                     Whoops, there seems to be something wrong.
                 </Info>
@@ -28,7 +44,6 @@ class App extends Component {
                     Whoops, there seems to be something wrong.
                 </Info>
 
-                <Button buttonClassName="btn">Button</Button><br/>
                 <Button buttonClassName="btn btn--success">Button</Button><br/>
                 <Button buttonClassName="btn btn--primary">Button</Button><br/>
                 <Button buttonClassName="btn btn--warning">Button</Button><br/>
