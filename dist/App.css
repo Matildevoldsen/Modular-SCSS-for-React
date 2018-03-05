@@ -1,0 +1,178 @@
+* {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+/* Thanks to:
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   Reset CSS
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 10px; }
+
+body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 1.65rem; }
+
+.btn {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  background: #fff;
+  color: #010;
+  border: 1px solid #e3e2e7;
+  font-weight: 400;
+  vertical-align: top;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  cursor: pointer;
+  padding: 1.2rem 2rem;
+  font-size: 1.65rem;
+  min-height: 4.4rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem; }
+
+.btn--primary {
+  background: #2e86de;
+  color: #fff;
+  border: none; }
+
+.btn--success {
+  background: #1dd1a1;
+  color: #fff;
+  border: none; }
+
+.btn--danger {
+  background: #ee5253;
+  color: #fff;
+  border: none; }
+
+.btn--warning {
+  background: #ff9f43;
+  color: #fff;
+  border: none; }
+
+.btn--outlined {
+  border: 1px solid #e3e2e7; }
+
+.btn--xl {
+  padding: 1.3rem 3rem; }
+
+.btn--sm {
+  padding: 1rem 1.6rem; }
+
+.btn--rounded {
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem; }
+
+.btn--flat {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0; }
+
+.btn--xl-rounded {
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  border-radius: 2rem; }
+
+.info {
+  display: inline-flex;
+  padding: 1.5rem;
+  background-color: #fff;
+  border: 1px solid #e2e1e6;
+  color: #010;
+  font-size: 1.65rem;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  border-radius: 0.7rem;
+  max-width: 98%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  height: auto;
+  flex-wrap: wrap; }
+
+.info--primary {
+  background: #2e86de;
+  border: none;
+  color: #fff; }
+
+.info--success {
+  background: #1dd1a1;
+  border: none;
+  color: #fff; }
+
+.info--warning {
+  background: #ff9f43;
+  border: none;
+  color: #fff; }
+
+.info--danger {
+  background: #ee5253;
+  border: none;
+  color: #fff; }
+
+.info--bordered {
+  border: 1px solid #e3e2e7; }
+
+/*# sourceMappingURL=app.css.map */

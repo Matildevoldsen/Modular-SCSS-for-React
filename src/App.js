@@ -28,11 +28,11 @@ class App extends Component {
                     Whoops, there seems to be something wrong.
                 </Info>
 
-                <Button bsClass="btn">Button</Button><br/>
-                <Button bsClass="btn btn--success">Button</Button><br/>
-                <Button bsClass="btn btn--primary">Button</Button><br/>
-                <Button bsClass="btn btn--warning">Button</Button><br/>
-                <Button bsClass="btn btn--danger btn--outlined btn--rounded">Button</Button><br/>
+                <Button buttonClassName="btn">Button</Button><br/>
+                <Button buttonClassName="btn btn--success">Button</Button><br/>
+                <Button buttonClassName="btn btn--primary">Button</Button><br/>
+                <Button buttonClassName="btn btn--warning">Button</Button><br/>
+                <Button buttonClassName="btn btn--danger btn--outlined btn--rounded">Button</Button><br/>
             </div>
         );
     }

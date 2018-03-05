@@ -11,7 +11,7 @@ class Button extends Component {
             <div>
                 <button
                     name={this.props.btnName}
-                    className={this.props.buttonClassName}
+                    className={this.props.bsClass}
                 >{this.props.children}</button>
             </div>
         );
