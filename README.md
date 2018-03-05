@@ -2,7 +2,6 @@
 
 This is a React based component library for exclusively web-browsers in it's **beta version**.
 
-
 ## Components
 
 All components listed, including modifier classes.
