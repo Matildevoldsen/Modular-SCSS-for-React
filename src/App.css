@@ -119,6 +119,31 @@ table {
   .is-12 {
     flex-basis: 100%;
     max-width: 100%; } }
+.navbar {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16), 0 3px 5px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16), 0 3px 5px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16), 0 3px 5px rgba(0, 0, 0, 0.23);
+  justify-content: space-between; }
+  .navbar .nav-left, .navbar .nav-right {
+    align-items: center;
+    align-self: center;
+    padding: 0 1rem;
+    list-style: none; }
+    .navbar .nav-left h1, .navbar .nav-right h1 {
+      font-size: 1.6rem;
+      font-weight: 600; }
+    .navbar .nav-left li, .navbar .nav-right li {
+      padding: 0 1rem; }
+      .navbar .nav-left li a, .navbar .nav-right li a {
+        text-decoration: none; }
+
+.navbar, .nav-left, .nav-right {
+  display: flex;
+  display: -webkit-flex; }
+
 .btn {
   display: inline-flex;
   display: -webkit-inline-flex;

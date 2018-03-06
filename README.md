@@ -2,6 +2,8 @@
 
 This is a React based component library for exclusively web-browsers in it's **beta version**.
 
+Modular-SCSS-for-React is not suitable for production yet.
+
 ## Grid
 
 We use a 12-grid system.

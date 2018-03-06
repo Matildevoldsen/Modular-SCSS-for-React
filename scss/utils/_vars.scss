@@ -10,6 +10,7 @@ $font--size: 1.65rem;
 
 //Font weight
 $font--weight-default: 400;
+$font--weight-bold: 600;
 
 //Base Colors
 
@@ -65,3 +66,18 @@ $orange-colors: (
         'base': $orange,
         'darkOrange': darken($blue, 10%)
 );
+
+//Navbar
+
+$nav-background: $white;
+$nav-width: 100%;
+$nav-height: 60px;
+
+//Navbar left & right padding
+
+$nav-padding: 0 1rem;
+
+//Navbar shadows
+
+$nav-box-shadow-1: 0 3px 5px rgba(0,0,0,0.16), 0 3px 5px rgba(0,0,0,0.23);
+$nav-box-shadow-2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);

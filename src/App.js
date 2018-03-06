@@ -4,50 +4,23 @@ import Button from './Components/Button';
 import Info from './Components/Info';
 import Column from './Components/Column';
 import Row from './Components/Row';
+import Navbar from "./Components/Navbar";
+import NavContainer from "./Components/NavContainer";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <Row>
-                    <Column is="is-4">
-                        <Button buttonClassName="btn">Button</Button>
-                    </Column>
+                <Navbar>
+                    <NavContainer is="left">
+                        <h1>Logo</h1>
+                        <li><a href="">Login</a></li>
+                    </NavContainer>
 
-                    <Column is="is-4">
-                        <Button buttonClassName="btn">Button</Button>
-                    </Column>
-
-                    <Column is="is-4">
-                        <Button buttonClassName="btn">Button</Button>
-                    </Column>
-                </Row>
-                <p>Hello, from <b>Modular SCSS for ReactJS</b></p>
-
-                <Info>
-                    Whoops, there seems to be something wrong.
-                </Info>
-
-                <Info infoClassName="info info--danger">
-                    Whoops, there seems to be something wrong.
-                </Info>
-
-                <Info infoClassName="info info--warning">
-                    Whoops, there seems to be something wrong.
-                </Info>
-
-                <Info infoClassName="info info--success">
-                    Whoops, there seems to be something wrong.
-                </Info>
-
-                <Info infoClassName="info info--primary">
-                    Whoops, there seems to be something wrong.
-                </Info>
-
-                <Button buttonClassName="btn btn--success">Button</Button><br/>
-                <Button buttonClassName="btn btn--primary">Button</Button><br/>
-                <Button buttonClassName="btn btn--warning">Button</Button><br/>
-                <Button buttonClassName="btn btn--danger btn--outlined btn--rounded">Button</Button><br/>
+                    <NavContainer is="right">
+                        <li><a href="">Login</a></li>
+                    </NavContainer>
+                </Navbar>
             </div>
         );
     }
