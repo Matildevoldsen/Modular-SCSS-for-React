@@ -21,18 +21,31 @@
 
   line-height: 1.5;
   cursor: pointer;
-  padding: 1.2rem 2rem;
-  font-size: $font--size;
+  padding: 0.5rem 1.9rem;
+  font-size: 16px;
   
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
   border-radius: 0.5rem;
+  -webkit-transition: background-color 0.8ms;
+  -moz-transition: background-color 0.8ms;
+  -ms-transition: background-color 0.8ms;
+  -o-transition: background-color 0.8ms;
+  transition: background-color 0.8ms;
+
+  &:hover {
+    background-color: darken($white, 4%);
+  }
 }
 
 .btn--primary {
   background: #2e86de;
   color: #fff;
   border: none;
+
+  &:hover {
+
+  }
 }
 
 .btn--success {
@@ -62,7 +75,7 @@
 }
 
 .btn--sm {
-  padding: 1rem 1.6rem;
+  padding: 0.3rem 1.6rem;
 }
 
 .btn--rounded {

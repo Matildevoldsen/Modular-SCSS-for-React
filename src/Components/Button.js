@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import withProps from "../utils/withProps";
 
 class Button extends Component {
 
@@ -8,14 +9,12 @@ class Button extends Component {
 
     render() {
         return (
-            <div>
-                <button
+                <button {...this.props}
                     name={this.props.btnName}
                     className={this.props.buttonClassName}
                 >{this.props.children}</button>
-            </div>
         );
     }
 }
 
-export default Button;
+export default withProps(Button);

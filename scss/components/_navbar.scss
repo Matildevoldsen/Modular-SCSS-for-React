@@ -13,6 +13,15 @@
     padding: $nav-padding;
     list-style: none;
 
+    .toggle {
+      width: auto;
+      .burgerlines {
+        width: 40px;
+        height: 4.5px;
+        background-color: getColor($grey-colors, 'darkGrey');
+      }
+    }
+
     h1 {
       font-size: 1.6rem;
       font-weight: $font--weight-bold;

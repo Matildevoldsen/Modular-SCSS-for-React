@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import withProps from "../utils/withProps";
 
 class Info extends Component {
 
@@ -20,7 +21,7 @@ class Info extends Component {
 
     render() {
         return (
-            <div
+            <div {...this.props}
                 onClick={this.clicked}
                 className={this.props.infoClassName ? this.props.infoClassName : 'info'}>
                 <p>{this.props.children}</p>
@@ -29,4 +30,4 @@ class Info extends Component {
     }
 }
 
-export default Info;
+export default withProps(Info);

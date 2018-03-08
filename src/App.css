@@ -132,6 +132,12 @@ table {
     align-self: center;
     padding: 0 1rem;
     list-style: none; }
+    .navbar .nav-left .toggle, .navbar .nav-right .toggle {
+      width: auto; }
+      .navbar .nav-left .toggle .burgerlines, .navbar .nav-right .toggle .burgerlines {
+        width: 40px;
+        height: 4.5px;
+        background-color: #c8c6d0; }
     .navbar .nav-left h1, .navbar .nav-right h1 {
       font-size: 1.6rem;
       font-weight: 600; }
@@ -163,11 +169,18 @@ table {
   user-select: none;
   line-height: 1.5;
   cursor: pointer;
-  padding: 1.2rem 2rem;
-  font-size: 1.65rem;
+  padding: 0.5rem 1.9rem;
+  font-size: 16px;
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
-  border-radius: 0.5rem; }
+  border-radius: 0.5rem;
+  -webkit-transition: background-color 0.8ms;
+  -moz-transition: background-color 0.8ms;
+  -ms-transition: background-color 0.8ms;
+  -o-transition: background-color 0.8ms;
+  transition: background-color 0.8ms; }
+  .btn:hover {
+    background-color: whitesmoke; }
 
 .btn--primary {
   background: #2e86de;
@@ -196,7 +209,7 @@ table {
   padding: 1.3rem 3rem; }
 
 .btn--sm {
-  padding: 1rem 1.6rem; }
+  padding: 0.3rem 1.6rem; }
 
 .btn--rounded {
   -webkit-border-radius: 1rem;

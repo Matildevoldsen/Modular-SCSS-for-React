@@ -1,13 +1,16 @@
 import React, {Component} from 'react';
+import withProps from "../../utils/withProps";
 
 class Navbar extends Component {
     render() {
+        const {navbarClassName, navBarProps, classes} = this.props;
         return (
-            <nav role="navbar" className={"navbar " + this.props.navbarClassName}>
+            <nav {...this.props}>
                 {this.props.children}
             </nav>
+
         );
     }
 }
 
-export default Navbar;
+export default withProps(Navbar);
