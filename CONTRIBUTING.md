@@ -1,6 +1,6 @@
 # Contributing
 
-
+When contributing to this repository, please contact us by e-mail before you send a request.
 ## Code Of Conduct
 
 ### Our Pledge
