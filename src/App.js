@@ -8,6 +8,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import NavContainer from "./Components/Navbar/NavContainer";
 import NavItem from "./Components/Navbar/NavItem";
 import withProps from "./utils/withProps";
+import ToggleMenu from "./Components/Navbar/toggleMenu";
 
 class App extends Component {
     render() {
@@ -16,13 +17,19 @@ class App extends Component {
                     <Navbar className="navbar">
                         <NavContainer navContainerClassName="left">
                             <h1>Logo</h1>
-                            <NavItem><a href="">Home</a></NavItem>
+                            <NavItem><a className="navbar--link" href="">Home</a></NavItem>
+                        </NavContainer>
+
+                        <NavContainer navContainerClassName="mobile" ref="nav-mobile">
+                            <NavItem><a className="navbar--link">Home</a></NavItem>
+                            <NavItem><a className="navbar--link">About</a></NavItem>
                         </NavContainer>
 
                         <NavContainer navContainerClassName="right">
-                            <NavItem><a href="">Home</a></NavItem>
+                            <NavItem><a href="" className="navbar--link" >Home</a></NavItem>
                             <Button id="1" buttonClassName="btn">Button</Button>
 
+                            <ToggleMenu />
                         </NavContainer>
                     </Navbar>
             </div>
