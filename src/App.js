@@ -27,7 +27,7 @@ class App extends Component {
 
                         <NavContainer navContainerClassName="right">
                             <NavItem><a href="" className="navbar--link" >Home</a></NavItem>
-                            <Button id="1" buttonClassName="btn">Button</Button>
+                            <Button id="1" buttonClassName="btn btn--success">Button</Button>
 
                             <ToggleMenu />
                         </NavContainer>

@@ -39,31 +39,43 @@
 }
 
 .btn--primary {
-  background: #2e86de;
+  background: $blue;
   color: #fff;
   border: none;
 
   &:hover {
-
+    background-color: darken($blue, 4%);
   }
 }
 
 .btn--success {
-  background: #1dd1a1;
+  background: $green;
   color: #fff;
   border: none;
+
+  &:hover {
+    background-color: darken($green, 4%);
+  }
 }
 
 .btn--danger {
-  background: #ee5253;
+  background: $red;
   color: #fff;
   border: none;
+
+  &:hover {
+    background-color: darken($red, 4%);
+  }
 }
 
 .btn--warning {
-  background: #ff9f43;
+  background: $orange;
   color: #fff;
   border: none;
+
+  &:hover {
+    background-color: darken($orange, 4%);
+  }
 }
 
 .btn--outlined {
